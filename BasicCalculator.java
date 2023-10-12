@@ -45,13 +45,19 @@ public class BasicCalculator {
                 break;
 
             // Cas de soustraction
-            
+            case '-': 
+                o = num1 - num2;
+                break;
 
             // Cas de multiplication
-            
+            case '*':
+                o = num1 * num2;
+                break;
 
             // Cas de division
-            
+            case '/':
+                o = num1/num2;
+                break;
 
             // Cas par défaut si l'opérateur n'est pas l'un des quatre précédents
             default:
